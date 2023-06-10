@@ -21,6 +21,9 @@ function App() {
       <p className="read-the-docs">
         Ela também gostaria de conhecer você
       </p>
+      <div className="card-phtos">
+        <h2>Prepare-se as fotos da baby, bão começar...</h2>
+      </div>
     </>
   )
 }
