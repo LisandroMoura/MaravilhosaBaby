@@ -1,0 +1,24 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // align-items: center;
+}
+.headerSass{
+    display: flex;
+    .socials 
+        ul{
+            padding: 0;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            gap:24px;
+            margin-bottom: 4.5rem;
+            li 
+                svg{
+                    font-size: 2rem;
+                    cursor: pointer;
+                }
+        }
+}
